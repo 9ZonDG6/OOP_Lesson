@@ -82,7 +82,7 @@ class PoliceCar:
             print(f'Машина повернула на {direction}')
 
 
-my_car = SportCar(220,'Белый', 'Audi')
+my_car = SportCar(220, 'Белый', 'Audi')
 my_car.go()
 my_car.stop()
 print(my_car.name)

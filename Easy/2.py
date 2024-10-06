@@ -39,7 +39,7 @@ class PoliceCar(Car):
         super().__init__(speed, color, name, is_police=True)
 
 
-my_car = SportCar(180,'Черный', 'BMW')
+my_car = SportCar(180, 'Черный', 'BMW')
 my_car.go()
 my_car.stop()
 print(my_car.name)
